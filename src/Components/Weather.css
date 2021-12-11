@@ -1,0 +1,89 @@
+.box1{
+    padding: 10px;
+  }
+  .box2{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .box2 > div {
+    flex: 1;
+    /* border: 1px solid red; */
+  }
+  
+  .time-box{
+    height: 30px;
+    width: 100px;
+    /* border: 1px solid red; */
+    margin: auto;
+  }
+  .location-box{
+    height: 50px;
+    width: 140px;
+    /* border: 1px solid red; */
+    margin: auto;
+  }
+  .weathericon-box{
+    height: 110px;
+    width: 180px;
+    /* border: 1px solid red; */
+    margin: auto;
+  }
+  .iconImg{
+    height: 70px;
+    width: 70px;
+  }
+  .nexticonImg{
+    height: 20px;
+    width: 20px;
+  }
+  
+  .nextforecast-box{
+    height: 20px;
+    width: 180px;
+    border: 1px solid green;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .weathernext-days{
+    height: 200px;
+    width: 420px;
+    display: flex;
+    /* border: 1px solid red; */
+    margin: auto;
+    padding: 6px;
+    flex-direction: column;
+  }
+  .weathernext-days > div {
+    flex: 1;
+  }
+  
+  .nextforecast-box1{
+    display: flex;
+  }
+  
+  .nextforecast-box1 > div{
+    /* border: 1px solid red; */
+    flex: 1;
+  }
+  
+  .nextforecast-box2{
+    display: flex;
+  }
+  
+  .nextforecast-box2 > div{
+    /* border: 1px solid red; */
+    flex: 1;
+  }
+  
+  .nextforecast-box3{
+    display: flex;
+  }
+  
+  .nextforecast-box3 > div{
+    /* border: 1px solid red; */
+    flex: 1;
+  }
