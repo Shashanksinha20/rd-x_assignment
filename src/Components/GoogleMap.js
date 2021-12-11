@@ -25,5 +25,5 @@ function MapContainer(props) {
 }
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyAySC0E77ZIkNPsgj5m_R_gmXatfamcPQw",
+  apiKey: "key",    //Enter your google maps api key here mine is giving warning from Gitguardian
 })(MapContainer);
